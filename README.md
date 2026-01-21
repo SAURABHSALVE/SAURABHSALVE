@@ -176,42 +176,100 @@ class AIEngineer:
 <tr>
 <td width="50%" valign="top">
 
-### GenAI & LLMs
+### 🤖 GenAI & LLMs
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-121212?style=flat-square&logo=chainlink&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Claude-8B5CF6?style=flat-square&logo=anthropic&logoColor=white)
+
 ```
-• OpenAI API
-• RAG Pipelines
+• RAG Pipelines & Vector DBs
 • Prompt Orchestration
 • Agentic Workflows
+• Fine-tuning & Evaluation
 ```
 
-### Backend & Infrastructure
+### 🔥 Full-Stack Development
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+
 ```
-• Python, FastAPI, Async Workers
-• Docker
-• AWS (EC2, Lambda, Bedrock)
-• GCP (Vertex AI)
+• MERN Stack (MongoDB, Express, React, Node)
+• REST & GraphQL APIs
+• Authentication & Authorization
+• Real-time Applications
+```
+
+### 🐍 Backend & APIs
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+
+```
+• FastAPI & Async Workers
+• RESTful API Design
+• Database Optimization
+• Microservices Architecture
 ```
 
 </td>
 <td width="50%" valign="top">
 
-### Frontend
+### ☁️ Cloud & Infrastructure
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+
 ```
-• Next.js
-• Streamlit
+• AWS (EC2, Lambda, Bedrock, S3)
+• GCP (Vertex AI, Cloud Run)
+• Docker & Containerization
+• CI/CD Pipelines
 ```
 
-### ML & Data
+### 🧠 ML & Computer Vision
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+
 ```
-• PyTorch
-• CNNs
-• Computer Vision
-• MLOps
+• PyTorch & TensorFlow
+• CNNs & Transfer Learning
+• Model Fine-tuning & Deployment
+• MLOps & Experiment Tracking
+```
+
+### 🎨 Frontend & UI
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+
+```
+• React & Next.js
+• TypeScript
+• Tailwind CSS
+• Responsive Design
 ```
 
 </td>
 </tr>
 </table>
+
+<div align="center">
+
+### 🔧 Development Tools
+
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+
+</div>
 
 ---
 
