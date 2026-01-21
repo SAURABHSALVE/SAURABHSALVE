@@ -23,26 +23,33 @@
 
 ---
 
-<table align="center">
-  <tr>
-    <td align="center" width="50%">
-      <h3>🔥 Engineering Consistency</h3>
-      <a href="https://github.com/SAURABHSALVE">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=SAURABHSALVE&theme=radical&hide_border=true" alt="GitHub Streak" />
-      </a>
-      <br/><br/>
-      <img src="https://github-readme-stats.vercel.app/api?username=SAURABHSALVE&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub Stats" />
-    </td>
-    <td align="center" width="50%">
-      <h3>🧠 Problem Solving</h3>
-      <a href="https://leetcode.com/u/Saurabhsalve9999/">
-        <img src="https://leetcard.jacoblin.cool/Saurabhsalve9999?theme=radical&font=Inter&ext=heatmap" alt="LeetCode Stats" />
-      </a>
-      <br/>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SAURABHSALVE&layout=compact&theme=radical&hide_border=true" alt="Top Langs" />
-    </td>
-  </tr>
-</table>
+<div align="center">
+  
+  <a href="https://github.com/SAURABHSALVE">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=SAURABHSALVE&theme=radical&hide_border=true" alt="GitHub Streak" />
+  </a>
+  <img src="https://github-readme-stats.vercel.app/api?username=SAURABHSALVE&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub Stats" />
+  
+  <br/>
+  
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SAURABHSALVE&theme=radical&bg_color=141321&color=fe428e&line=fe428e&point=ffffff&area=true&hide_border=true" alt="Saurabh's Activity Graph" width="100%" />
+
+  <br/>
+
+  <table align="center">
+    <tr>
+      <td align="center">
+         <a href="https://leetcode.com/u/Saurabhsalve9999/">
+           <img src="https://leetcard.jacoblin.cool/Saurabhsalve9999?theme=radical&font=Inter&ext=heatmap" alt="LeetCode Stats" />
+         </a>
+      </td>
+      <td align="center">
+         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SAURABHSALVE&layout=compact&theme=radical&hide_border=true" alt="Top Langs" />
+      </td>
+    </tr>
+  </table>
+
+</div>
 
 ---
 
