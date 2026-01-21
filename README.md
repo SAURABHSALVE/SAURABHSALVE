@@ -1,102 +1,130 @@
-<div align="center">
-  <h1>Saurabh Salve</h1>
-  <h3>AI Engineer | GenAI & RAG Systems | Full-Stack Developer</h3>
-  <p>
-    Building production-grade AI systems that bridge the gap between Research and Product.
-  </p>
-  
-  <p>
-    <a href="https://linkedin.com/in/saurabhsalve99">
-      <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-    </a>
-    <a href="mailto:saurabhsalve9999@gmail.com">
-      <img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-    </a>
-    <a href="https://www.skills.google/public_profiles/8e099b66-523c-407e-9c78-c58e960a2c4d">
-      <img src="https://img.shields.io/badge/Google_Cloud-Skill_Boost-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="GCP" />
-    </a>
-    <a href="https://leetcode.com/u/Saurabhsalve9999/">
-      <img src="https://img.shields.io/badge/LeetCode-Solve_Rate-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
-    </a>
-  </p>
-</div>
+# Saurabh Salve
+
+AI Engineer focused on **LLM systems, RAG pipelines, and production backends**.
+
+I build AI products that survive real-world constraints: **latency, cost, and unreliable model outputs**.  
+My work sits at the intersection of **research ideas and shippable systems**.
 
 ---
 
-<div align="center">
-  
-  <a href="https://github.com/SAURABHSALVE">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=SAURABHSALVE&theme=radical&hide_border=true" alt="GitHub Streak" />
-  </a>
-  <img src="https://github-readme-stats.vercel.app/api?username=SAURABHSALVE&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="GitHub Stats" />
-  
-  <br/>
-  
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SAURABHSALVE&theme=radical&bg_color=141321&color=fe428e&line=fe428e&point=ffffff&area=true&hide_border=true" alt="Saurabh's Activity Graph" width="100%" />
+## What I’m Working On
 
-  <br/>
+- LLM-powered pipelines that convert large codebases into structured content and video
+- Agentic systems with explicit validation, retries, and failure handling
+- Async backend architectures for long-running AI workloads
 
-  <table align="center">
-    <tr>
-      <td align="center">
-         <a href="https://leetcode.com/u/Saurabhsalve9999/">
-           <img src="https://leetcard.jacoblin.cool/Saurabhsalve9999?theme=radical&font=Inter&ext=heatmap" alt="LeetCode Stats" />
-         </a>
-      </td>
-      <td align="center">
-         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SAURABHSALVE&layout=compact&theme=radical&hide_border=true" alt="Top Langs" />
-      </td>
-    </tr>
-  </table>
-
-</div>
+I care less about demos and more about **systems that don’t break at scale**.
 
 ---
 
-### 🛠 Technical Arsenal
+## Core Focus Areas
 
-| Category | Stack |
-| :--- | :--- |
-| **Generative AI** | RAG Pipelines, LangChain, Multi-Agent Systems, OpenAI API, Prompt Eng |
-| **Machine Learning** | PyTorch, TensorFlow, ResNet/CNN, Computer Vision, Scikit-learn |
-| **Cloud & DevOps** | AWS (Lambda, EC2, Bedrock), Docker, GCP (Vertex AI), CI/CD |
-| **Full Stack** | Python, FastAPI, Next.js, PostgreSQL, Streamlit |
+- Designing RAG systems that degrade gracefully under bad inputs
+- Reducing inference cost and latency in multi-step LLM pipelines
+- Clear ownership over clever abstractions
+- Shipping > hype
 
 ---
 
-### 🚀 Production-Grade Projects
+## Flagship Projects
 
-#### 1. [Repo2Viral — Enterprise GenAI SaaS Platform](https://github.com/SAURABHSALVE/repo2viral)
-*An end-to-end RAG pipeline that parses GitHub codebases to generate context-aware documentation and social content.*
-* **Architecture:** Deployed microservices on Render with a **FastAPI** backend to handle concurrent requests.
-* **Reliability:** Implemented manual review and rule-based checks to validate LLM outputs.
-* **Stack:** Next.js, FastAPI, OpenAI API, Supabase.
+### Repo2Viral — Production LLM System
+**Problem**  
+Turning large GitHub repositories into high-quality documentation and social content is slow and inconsistent.
 
-#### 2. [Agentic AI Image Studio — Multi-Agent Workflow](https://github.com/SAURABHSALVE/image-generation)
-*A 9-agent system designed for automated prompt refinement and output quality control.*
-* **Performance:** Optimized inference using **Latent Consistency Models (LCM)**, achieving **10x faster generation**.
-* **Robustness:** Modular error handling in PyTorch for complex multi-step tasks.
-* **Stack:** PyTorch, Diffusers, Multi-Agent Systems.
+**What I Built**  
+A production-grade RAG pipeline that parses repositories and generates structured, reviewable outputs.
 
-#### 3. [Plant Disease Detection API](https://github.com/SAURABHSALVE/plant-disease-detection)
-*Production-ready Computer Vision service.*
-* **Accuracy:** Fine-tuned ResNet50 model achieving **98% validation accuracy**.
-* **DevOps:** Fully containerized using **Docker** for consistent environment replication.
-* **Stack:** Python, PyTorch, Docker, REST API.
+**Why It’s Hard**
+- LLM hallucinations on partial context
+- Token cost explosion on large repos
+- Long-running jobs that cannot block HTTP requests
 
----
+**Key Engineering Decisions**
+- Code-aware chunking and retrieval (not naive text splits)
+- Async FastAPI workers for long-running jobs
+- Rule-based validation layer before surfacing LLM output
 
-### 💼 Professional Experience
+**Stack**
+FastAPI, Next.js, OpenAI API, Supabase, Docker
 
-**IBM SkillsBuild** | *Data Science Intern* (Summer 2024)
-> Engineered a predictive churn model (83% accuracy) on 100K+ records and reduced manual analysis time by 40% via automated Streamlit dashboards.
-
-**AWS** | *Cloud Computing Intern* (Summer 2023)
-> Architected containerized EC2 deployments with auto-scaling (30% latency reduction) and designed serverless ETL pipelines handling 10k+ daily events.
+🔗 https://github.com/SAURABHSALVE/repo2viral
 
 ---
 
-<div align="center">
-  <p><i>"Talk is cheap. Show me the code."</i></p>
-  <a href="https://github.com/SAURABHSALVE?tab=repositories">View All Repositories</a>
-</div>
+### Agentic AI Image Studio — Latency-First Design
+**Problem**  
+Multi-step diffusion pipelines are slow, fragile, and hard to scale.
+
+**What I Built**  
+A 9-agent workflow where agents iteratively refine prompts and validate outputs.
+
+**Explicit Tradeoff**
+- Used Latent Consistency Models (LCM) to achieve ~10× faster inference
+- Accepted small quality loss in favor of iteration speed and throughput
+
+**Why This Matters**
+Most real products value **speed and reliability** over perfect outputs.
+
+**Stack**
+PyTorch, Diffusers, custom agent orchestration
+
+🔗 https://github.com/SAURABHSALVE/image-generation
+
+---
+
+### Plant Disease Detection API — Classic ML, Shipped Properly
+Production-ready computer vision service.
+
+- Fine-tuned ResNet50 model
+- 98% validation accuracy
+- Dockerized REST API for reproducible deployment
+
+**Stack**
+Python, PyTorch, Docker
+
+🔗 https://github.com/SAURABHSALVE/plant-disease-detection
+
+---
+
+## Technical Stack (Production Use Only)
+
+**LLMs & GenAI**
+- OpenAI API, RAG pipelines, prompt orchestration, agentic workflows
+
+**Backend & Infra**
+- Python, FastAPI, async workers, Docker
+- AWS (EC2, Lambda, Bedrock), GCP (Vertex AI)
+
+**Frontend**
+- Next.js, Streamlit
+
+**ML**
+- PyTorch, CNNs, Computer Vision
+
+---
+
+## Experience
+
+**IBM SkillsBuild — Data Science Intern**  
+- Built churn prediction pipeline on 100k+ records  
+- Automated analytics dashboards, reducing manual analysis ~40%
+
+**AWS — Cloud Computing Intern**  
+- Designed containerized EC2 deployments with autoscaling  
+- Built serverless ETL pipelines handling 10k+ daily events
+
+---
+
+## Philosophy
+
+- Systems should fail **predictably**
+- Ownership beats cleverness
+- Shipping beats talking
+
+> “Talk is cheap. Show me the code.”
+
+---
+
+🔗 **LinkedIn:** https://linkedin.com/in/saurabhsalve99  
+📫 **Email:** saurabhsalve9999@gmail.com
