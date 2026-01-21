@@ -1,100 +1,108 @@
+<div align="center">
+
 # Saurabh Salve
 
-AI Engineer focused on **LLM systems, RAG pipelines, and production backends**.
+### AI Engineer · LLM Systems · RAG · Full-Stack
 
-I build AI products that survive real-world constraints: **latency, cost, and unreliable model outputs**.  
-My work sits at the intersection of **research ideas and shippable systems**.
+Building **production-grade AI systems** that survive  
+**latency, cost, and unreliable model outputs**
 
----
+<br/>
 
-## What I’m Working On
+<a href="https://linkedin.com/in/saurabhsalve99">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white"/>
+</a>
+<a href="mailto:saurabhsalve9999@gmail.com">
+  <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=flat&logo=gmail&logoColor=white"/>
+</a>
 
-- LLM-powered pipelines that convert large codebases into structured content and video
-- Agentic systems with explicit validation, retries, and failure handling
-- Async backend architectures for long-running AI workloads
-
-I care less about demos and more about **systems that don’t break at scale**.
-
----
-
-## Core Focus Areas
-
-- Designing RAG systems that degrade gracefully under bad inputs
-- Reducing inference cost and latency in multi-step LLM pipelines
-- Clear ownership over clever abstractions
-- Shipping > hype
+</div>
 
 ---
 
-## Flagship Projects
+## 🧠 What I Do
 
-### Repo2Viral — Production LLM System
-**Problem**  
-Turning large GitHub repositories into high-quality documentation and social content is slow and inconsistent.
+I design and ship AI systems that sit between **research ideas and real products**.
 
-**What I Built**  
-A production-grade RAG pipeline that parses repositories and generates structured, reviewable outputs.
+My focus is not demos — it’s **systems that don’t fall apart in production**.
 
-**Why It’s Hard**
-- LLM hallucinations on partial context
-- Token cost explosion on large repos
-- Long-running jobs that cannot block HTTP requests
+**Currently building:**
+- LLM pipelines that convert large codebases into structured content & video
+- Agentic systems with validation, retries, and explicit failure handling
+- Async backends for long-running AI workloads
 
-**Key Engineering Decisions**
-- Code-aware chunking and retrieval (not naive text splits)
-- Async FastAPI workers for long-running jobs
-- Rule-based validation layer before surfacing LLM output
+---
+
+## 🔍 Engineering Focus
+
+- RAG systems that **degrade gracefully** under bad inputs  
+- Reducing **token cost & latency** in multi-step LLM workflows  
+- Clear ownership over clever abstractions  
+- Shipping > hype  
+
+---
+
+## 🚀 Flagship Projects
+
+### 🟣 Repo2Viral — Production LLM System
+> Turning large GitHub repositories into usable documentation & content
+
+**Why it’s hard**
+- Partial context causes hallucinations  
+- Token cost explodes on large repos  
+- Long-running jobs can’t block HTTP requests  
+
+**What I built**
+- Code-aware chunking & retrieval (not naive text splits)
+- Async FastAPI workers for long jobs
+- Rule-based validation before surfacing LLM output
 
 **Stack**
-FastAPI, Next.js, OpenAI API, Supabase, Docker
+`FastAPI · Next.js · OpenAI API · Supabase · Docker`
 
 🔗 https://github.com/SAURABHSALVE/repo2viral
 
 ---
 
-### Agentic AI Image Studio — Latency-First Design
-**Problem**  
-Multi-step diffusion pipelines are slow, fragile, and hard to scale.
+### 🟣 Agentic AI Image Studio — Latency-First Design
+> Multi-agent system for automated prompt refinement & output control
 
-**What I Built**  
-A 9-agent workflow where agents iteratively refine prompts and validate outputs.
+**Explicit tradeoff**
+- Used **Latent Consistency Models (LCM)** → ~10× faster inference  
+- Accepted slight quality loss for speed & throughput  
 
-**Explicit Tradeoff**
-- Used Latent Consistency Models (LCM) to achieve ~10× faster inference
-- Accepted small quality loss in favor of iteration speed and throughput
-
-**Why This Matters**
-Most real products value **speed and reliability** over perfect outputs.
+**Why this matters**
+Real products value **speed and reliability**, not perfect outputs.
 
 **Stack**
-PyTorch, Diffusers, custom agent orchestration
+`PyTorch · Diffusers · Agent Orchestration`
 
 🔗 https://github.com/SAURABHSALVE/image-generation
 
 ---
 
-### Plant Disease Detection API — Classic ML, Shipped Properly
-Production-ready computer vision service.
+### 🟣 Plant Disease Detection API — ML, Shipped Properly
+> Production-ready computer vision service
 
-- Fine-tuned ResNet50 model
-- 98% validation accuracy
-- Dockerized REST API for reproducible deployment
+- Fine-tuned ResNet50 (98% validation accuracy)
+- Dockerized REST API
+- Designed for deployment, not notebooks
 
 **Stack**
-Python, PyTorch, Docker
+`Python · PyTorch · Docker`
 
 🔗 https://github.com/SAURABHSALVE/plant-disease-detection
 
 ---
 
-## Technical Stack (Production Use Only)
+## 🛠 Tech I Use in Production
 
-**LLMs & GenAI**
+**GenAI & LLMs**
 - OpenAI API, RAG pipelines, prompt orchestration, agentic workflows
 
 **Backend & Infra**
-- Python, FastAPI, async workers, Docker
-- AWS (EC2, Lambda, Bedrock), GCP (Vertex AI)
+- Python, FastAPI, async workers
+- Docker, AWS (EC2, Lambda, Bedrock), GCP (Vertex AI)
 
 **Frontend**
 - Next.js, Streamlit
@@ -104,27 +112,26 @@ Python, PyTorch, Docker
 
 ---
 
-## Experience
+## 💼 Experience
 
 **IBM SkillsBuild — Data Science Intern**  
 - Built churn prediction pipeline on 100k+ records  
-- Automated analytics dashboards, reducing manual analysis ~40%
+- Automated dashboards → ~40% reduction in manual analysis  
 
 **AWS — Cloud Computing Intern**  
-- Designed containerized EC2 deployments with autoscaling  
-- Built serverless ETL pipelines handling 10k+ daily events
+- Containerized EC2 deployments with autoscaling  
+- Serverless ETL pipelines handling 10k+ daily events  
 
 ---
 
-## Philosophy
+## 🧭 Engineering Philosophy
 
 - Systems should fail **predictably**
 - Ownership beats cleverness
 - Shipping beats talking
 
-> “Talk is cheap. Show me the code.”
+<div align="center">
 
----
+**“Talk is cheap. Show me the code.”**
 
-🔗 **LinkedIn:** https://linkedin.com/in/saurabhsalve99  
-📫 **Email:** saurabhsalve9999@gmail.com
+</div>
